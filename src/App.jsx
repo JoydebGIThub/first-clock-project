@@ -11,7 +11,7 @@ function App() {
       const now = new Date();
       setCurrentTime(now);
       // Check if it's 11 PM in India (IST)
-      if (now.getHours() === 23 && now.getMinutes() === 10) {
+      if (now.getHours() === 23 && now.getMinutes() === 0) {
         setShowMessage(true);
       } else {
         setShowMessage(false);
