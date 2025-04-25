@@ -33,7 +33,7 @@ function App() {
   const secondRotation = second * 6; // 6 degrees per second
   return (
     <>
-      <div className="App">
+      <div className="app">
       {/* <h1>Real-Time Clock</h1>
       <div className="clock">{formattedTime}</div> */}
        <h1>Analog Clock</h1>
